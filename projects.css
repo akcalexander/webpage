@@ -1,0 +1,158 @@
+.links li a {
+    color: #5d5d5d;
+}
+#getstarted a {
+  color: red;
+}
+
+body {
+  font-family: New Times Roman;
+}
+a {
+  text-decoration:none;
+}
+ul {
+  list-style: inside url();
+  padding: 0;
+  margin: 0%;
+  
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.landing-page header {
+  min-height: 80px;
+  display: flex;
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+
+.landing-page header .container {
+  background-color:#400A3C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page header .logo {
+  color:grey;
+  font-style: new times roman;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+
+.landing-page header .links li {
+  margin-left: 30px;
+  color: #5d5d5d;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #363333;
+}
+
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  min-height: calc(100vh - 80px);
+}
+
+.landing-page .content .info h1 {
+  color: #5d5d5d;
+  font-size: 44px;
+}
+.landing-page .content .info p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #5d5d5d;
+}
+
+.landing-page .content .image img {
+  max-width: 100%;
+}
+footer {
+    background-color:#400A3C;
+    color: grey;
+    text-align: match-parent;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.5;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #FE9900;
+  color: white;
+}
+.people {
+    margin-top: 2rem;
+    padding: 1rem 0;
+  }
+  
+  .stakeholders {
+    margin: 2rem auto;
+    max-width: 1100px;
+  }
+  
+  .stakeholders img {
+    border-radius: 0.6rem;
+  }
+  .persons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 1rem;
+  }
+  .name {
+    color: var(--primary-color);
+    text-align: center;
+  }
+  
+  .role {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .sub {
+    margin-top: 2rem;
+  }
+  
+  .sub h3 {
+    text-align: center;
+  }
+  
+  form {
+    text-align: center;
+    margin: 0.4rem 2rem;
+  }
